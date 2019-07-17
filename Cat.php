@@ -3,7 +3,7 @@
 
 class Cat extends Animal implements AnimalSound {
 
-	public function __construct() {
+    public function __construct() {
         parent::__construct('cat');
 	}
     

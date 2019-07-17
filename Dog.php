@@ -2,9 +2,7 @@
 
 class Dog extends Animal implements AnimalSound {
 
-    private $animal;
-
-	public function __construct() {
+    public function __construct() {
         parent::__construct('dog');
 	}
 

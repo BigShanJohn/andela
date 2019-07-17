@@ -1,5 +1,5 @@
 <?php
 
 interface AnimalSound {
-	public function makeSound();
+    public function makeSound();
 }
