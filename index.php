@@ -6,13 +6,13 @@ spl_autoload_register(function($className) {
 
 // Dog
 $dog = new Dog();
-echo 'A ' .$dog->getName(). ' '.$dog->makeSound().'<br/>'; 
+echo 'A ' .$dog. ' '.$dog->makeSound().'<br/>'; 
 
 // Cat
 $cat = new Cat();
-echo 'A ' .$cat->getName(). ' '.$cat->makeSound().'<br/>'; 
+echo 'A ' .$cat. ' '.$cat->makeSound().'<br/>'; 
 
 // Cat
 $goat = new Goat();
-echo 'A ' .$goat->getName(). ' '.$goat->makeSound(); 
+echo 'A ' .$goat. ' '.$goat->makeSound(); 
 
